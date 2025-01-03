@@ -66,7 +66,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "-c", "--classes",
         nargs='+',
-        default=[],  # デフォルトは空リスト（すべてのクラスを対象）
+        default=["car", "bicycle", "person", "motorcycle", "bus"],  # デフォルトは空リスト（すべてのクラスを対象）
         help="検出対象のクラス名リスト（スペース区切り）。未指定の場合はすべてのクラスを対象とします。"
     )
 
